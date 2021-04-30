@@ -14,10 +14,11 @@ public class cart
 	public static int total_quantity=0;
 	public static int total_purchase=0;
 	//I have declared 4 products here 
-	public static String[] products = {null, "1.) Quarter-Pounder Burger 50.00",
-	 											"2.) One-Percenter (2-Stacks of Quarter Pounder Patty) 99.00",
-	 											"3.) Tombstone Piledriver (3 Stacks of Quarter Pounder Patty) 150.00",
-	 											"4.) God's Last Gift (Tombstone Burger with 100g of Carolina Reaper) 200.00"};
+	public static String[] products = {null, 
+		"1.) Quarter-Pounder Burger 50.00",
+	        "2.) One-Percenter (2-Stacks of Quarter Pounder Patty) 99.00",
+	        "3.) Tombstone Piledriver (3 Stacks of Quarter Pounder Patty) 150.00",
+	        "4.) God's Last Gift (Tombstone Burger with 100g of Carolina Reaper) 200.00"};
 	//Prices in accordance of their elements
 	public static int[] product_price ={0,50,99,150,200};
 	//This is the cart for the check-out of all order you have
